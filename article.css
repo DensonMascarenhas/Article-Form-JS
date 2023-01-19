@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(255, 212, 196);
+    align-content: center;
+}
+
+.form-outline {
+    position: relative;
+    width: 600px;
+    /* border: 15px solid rgb(241, 179, 157); */
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(241, 179, 157);
+    margin-top: 100px;
+    border-radius: 10px;
+    border-bottom: -200px;
+}
+
+.form-control {
+    background-color: rgb(255, 245, 236);
+    /* position: relative; */
+    border-radius: 10px;
+    padding: 100px;
+    /* margin-top: -20px; */
+    margin-left: -35px;
+    margin-right: -35px;
+    margin-bottom: -35px;
+}
+
+.heading {
+    color: rgb(32, 57, 103);
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.label-font {
+    font: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(32, 57, 103);
+    padding-left: 3px;
+    font-weight: bolder;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.inputbox-style {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 5px;
+    color: rgb(87, 72, 72);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    text-indent: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(221, 210, 210);
+}
+
+.contact-box {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 27px;
+    margin-top: 3px;
+    color: rgb(87, 72, 72);
+    text-indent: 5px;
+    border: 2px solid rgb(221, 210, 210);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+}
+
+.btn-submit {
+    border-radius: 10px;
+    border: 1px solid;
+    border-style: dashed;
+    height: 40px;
+    background-color: transparent;
+    font-weight: bold;
+    border-color: rgb(182, 165, 165);
+    color: rgb(64, 165, 64);
+}
+
+.btn-submit:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.error-msg {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: small;
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 100%;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.1s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    border: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
