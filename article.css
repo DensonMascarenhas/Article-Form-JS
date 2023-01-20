@@ -17,7 +17,7 @@ body {
 
 .form-control {
     background-color: rgb(255, 245, 236);
-    /* position: relative; */
+    position: relative;
     border-radius: 10px;
     padding: 100px;
     /* margin-top: -20px; */
@@ -105,6 +105,30 @@ body {
 
 .right {
     width: 100%;
+}
+
+.parent {
+    position: absolute;
+    top: 0;
+    left: -270px;
+    /* border: 15px solid rgb(241, 179, 157); */
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-bottom: -200px;
+}
+
+.image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: 175px;
+    left: 830px;
 }
 
 .popup {
