@@ -75,7 +75,8 @@ function validateOwner() {
 
 function validateUsername() {
     let userName = getUsername();
-    if (userName.value.length < 2 || !isNaN(userName.value)) {
+    let db = ["niharika", "rohit", "denson"];
+    if (userName.value.length < 2 || !isNaN(userName.value) || db.includes(userName.value.toLowerCase())) {
         document.getElementById("usernameError").style.display = "block";
         userName.style.border = "2px solid red";
         cUsername = false;
